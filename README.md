@@ -11,8 +11,8 @@
 ** Generating TURTEL file **
 - "TTL_File_Generator.py" file is responsible to generate our RDF graph
 * Installation 
-  $ pip install Calendar
-  $ pip install Flask
+  - $ pip install Calendar
+  - $ pip install Flask
 - Run the file and the out put .ttl file displayed in "http://localhost:5000/cadata"
 - For windo os to see the ttl format ctrl+u
 - for Mac os to see the ttl format ctr+option+u
@@ -42,10 +42,10 @@
   -Install with PIP (Using the Python3 pip installer pip3)
    $ pip3 install pyshacl
 - Or in a python virtualenv (these example commandline instructions are for a Linux/Unix based OS)
-  $ python3 -m virtualenv --python=python3 --no-site-packages .venv
-  $ source ./.venv/bin/activate
-  $ pip3 install pyshacl 
-  
+  - $ python3 -m virtualenv --python=python3 --no-site-packages .venv
+  - $ source ./.venv/bin/activate
+  - $ pip3 install pyshacl 
+
 - To validte if the generated graph in a proper shape
 - Use EVENT.ttl file as shacl_file 
 - Give the generated calander graph
