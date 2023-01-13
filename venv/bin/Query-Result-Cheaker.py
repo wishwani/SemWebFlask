@@ -16,7 +16,7 @@ sparql.setCredentials("ldpuser", "LinkedDataIsGreat")
 #             LIMIT 10
 #             """
 #                 )
-
+##### get the subject,pridicate,object from all graph ######
 # sparql.setQuery("""
 #             Select * {?subj a <https://schema.org/Event>;
 #             <https://schema.org/startDate> ?startDate;
@@ -36,6 +36,7 @@ sparql.setCredentials("ldpuser", "LinkedDataIsGreat")
 
 #             """
 #                 )
+######## get the up comming events  ###########
 
 sparql.setQuery("""
     PREFIX schema: <http://schema.org/>
